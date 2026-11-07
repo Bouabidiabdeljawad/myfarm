@@ -1,0 +1,13 @@
+{
+  "@@locale": "en",
+  "@@textDirection": "ltr",
+  "appTitle": "myFarm",
+  "error.network": "No internet connection. Please try again.",
+  "error.server": "Server error. Please try again later.",
+  "error.auth": "Authentication failed.",
+  "error.database": "Database error.",
+  "error.secure_storage": "Secure storage error.",
+  "error.validation": "Validation error.",
+  "error.unknown": "An unexpected error occurred.",
+  "error.request_cancelled": "Request was cancelled."
+}

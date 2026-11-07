@@ -1,0 +1,3 @@
+-- Placeholder schema file for Drift.
+-- Phase 02+ adds CREATE TABLE statements here for business entities.
+-- This file keeps `flutter pub run build_runner build` green with no tables.

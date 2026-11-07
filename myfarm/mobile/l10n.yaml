@@ -1,0 +1,9 @@
+arb-dir: lib/core/localization
+template-arb-file: app_en.arb
+localization-delegate-class: AppLocalizations
+output-localization-file: app_localizations.dart
+output-class: AppLocalizations
+preferred-supported-locales:
+  - en
+  - fr
+  - ar

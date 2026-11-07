@@ -1,0 +1,13 @@
+{
+  "@@locale": "fr",
+  "@@textDirection": "ltr",
+  "appTitle": "myFarm",
+  "error.network": "Pas de connexion Internet. Veuillez réessayer.",
+  "error.server": "Erreur serveur. Veuillez réessayer plus tard.",
+  "error.auth": "Échec de l'authentification.",
+  "error.database": "Erreur de base de données.",
+  "error.secure_storage": "Erreur de stockage sécurisé.",
+  "error.validation": "Erreur de validation.",
+  "error.unknown": "Une erreur inattendue est survenue.",
+  "error.request_cancelled": "Requête annulée."
+}

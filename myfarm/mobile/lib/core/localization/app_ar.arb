@@ -1,0 +1,13 @@
+{
+  "@@locale": "ar",
+  "@@textDirection": "rtl",
+  "appTitle": "مزرعتي",
+  "error.network": "لا يوجد اتصال بالإنترنت. يرجى المحاولة مرة أخرى.",
+  "error.server": "خطأ في الخادم. يرجى المحاولة مرة أخرى لاحقًا.",
+  "error.auth": "فشل المصادقة.",
+  "error.database": "خطأ في قاعدة البيانات.",
+  "error.secure_storage": "خطأ في التخزين الآمن.",
+  "error.validation": "خطأ في التحقق من الصحة.",
+  "error.unknown": "حدث خطأ غير متوقع.",
+  "error.request_cancelled": "تم إلغاء الطلب."
+}

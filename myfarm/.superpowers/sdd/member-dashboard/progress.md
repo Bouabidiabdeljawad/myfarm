@@ -2,12 +2,12 @@
 
 ## Tasks
 
-- [ ] Task 1: Define Member‑Scoped DTO Projections
-- [ ] Task 2: Service Layer – MemberDashboardService
-- [ ] Task 3: Cache Invalidation for Member Data
-- [ ] Task 4: REST Controller – MemberDashboardController
-- [ ] Task 5: PDF Report Generation Endpoint
-- [ ] Task 6: Backend – Optimized Queries & Indexes
+- [x] Task 1: Define Member‑Scoped DTO Projections
+- [x] Task 2: Service Layer – MemberDashboardService
+- [x] Task 3: Cache Invalidation for Member Data
+- [x] Task 4: REST Controller – MemberDashboardController
+- [x] Task 5: PDF Report Generation Endpoint
+- [x] Task 6: Backend – Optimized Queries & Indexes
 - [ ] Task 7: Flutter – Member Dashboard Screen Skeleton
 - [ ] Task 8: Flutter – Period Selector & PDF Access
 - [ ] Task 9: Security – MemberScope Annotation

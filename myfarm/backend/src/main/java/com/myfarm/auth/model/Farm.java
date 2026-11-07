@@ -20,5 +20,36 @@ public class Farm {
     @OneToMany(mappedBy = "farm", cascade = CascadeType.ALL, orphanRemoval = true)
     private Set<FarmMembership> memberships;
 
-    // getters and setters omitted for brevity
+    // getters and setters
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public boolean isArchived() {
+        return archived;
+    }
+
+    public void setArchived(boolean archived) {
+        this.archived = archived;
+    }
+
+    public Set<FarmMembership> getMemberships() {
+        return memberships;
+    }
+
+    public void setMemberships(Set<FarmMembership> memberships) {
+        this.memberships = memberships;
+    }
 }

@@ -1,0 +1,7 @@
+com\myfarm\auth\dto\MemberDashboardDtoTest.class
+com\myfarm\auth\service\MemberReportServiceTest.class
+com\myfarm\auth\listener\MemberDashboardCacheInvalidationListenerTest.class
+com\myfarm\auth\SchemaTest.class
+com\myfarm\auth\service\PasswordServiceTest.class
+com\myfarm\auth\service\MemberDashboardServiceTest.class
+com\myfarm\auth\controller\MemberDashboardControllerTest.class

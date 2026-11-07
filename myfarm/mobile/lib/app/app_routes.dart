@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:my_farm/features/member_dashboard/member_dashboard_screen.dart';
 
 /// Global router provider. Routes are registered here and consumed
 /// by [MyApp]. Business feature routes are added per-feature in
@@ -13,15 +14,24 @@ final goRouterProvider = Provider<GoRouter>((ref) {
         path: AppRoutes.splash,
         builder: (context, state) => const SplashPage(),
       ),
+      // Member Dashboard route - requires authentication (handled by auth guard in future)
+      GoRoute(
+        path: AppRoutes.memberDashboard,
+        builder: (context, state) {
+          // Get memberId from query params or default to 1 for now
+          final memberId = int.tryParse(state.uri.queryParameters['memberId'] ?? '1') ?? 1;
+          return MemberDashboardScreen(memberId: memberId);
+        },
+      ),
     ],
     errorBuilder: (context, state) => const ErrorPage(),
   );
 });
 
-/// Placeholder route constants. Concrete feature routes live under
-/// `mobile/lib/features/<feature>/` in later phases.
+/// Route constants
 abstract class AppRoutes {
   static const String splash = '/';
+  static const String memberDashboard = '/member-dashboard';
 }
 
 class SplashPage extends StatelessWidget {

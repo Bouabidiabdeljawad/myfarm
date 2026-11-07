@@ -28,6 +28,9 @@ class AppSpacing {
   static const double avatarSizeSm = 32.0;
   static const double avatarSizeMd = 40.0;
   static const double avatarSizeLg = 48.0;
+  static const double radiusSm = 8.0;
+  static const double radiusMd = 12.0;
+  static const double radiusLg = 16.0;
   static const double cardBorderRadius = 12.0;
   static const double buttonBorderRadius = 10.0;
   static const double inputBorderRadius = 10.0;
